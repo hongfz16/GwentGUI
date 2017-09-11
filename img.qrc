@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/background/gamePlayingBackground.jpg</file>
+        <file>img/card/monster/arachas.png</file>
+        <file>img/card/monster/arachasBehemoth.png</file>
+        <file>img/card/monster/archgriffin.png</file>
+        <file>img/card/monster/caranthir.png</file>
+        <file>img/card/monster/celaenoHarpy.png</file>
+        <file>img/card/monster/croneBrewess.png</file>
+        <file>img/card/monster/croneWeavess.png</file>
+        <file>img/card/monster/croneWhispess.png</file>
+        <file>img/card/monster/dagon.png</file>
+        <file>img/card/monster/earthElemental.png</file>
+        <file>img/card/monster/foglet.png</file>
+        <file>img/card/monster/frightener.png</file>
+        <file>img/card/monster/geels.png</file>
+        <file>img/card/monster/harpy.png</file>
+        <file>img/card/monster/nithral.png</file>
+        <file>img/card/monster/unseenElder.png</file>
+        <file>img/card/monster/vranWarrior.png</file>
+        <file>img/card/monster/woodlandSpirit.png</file>
+        <file>img/card/nutral/bekkersTwistedMirror.png</file>
+        <file>img/card/nutral/bitingFrost.png</file>
+        <file>img/card/nutral/commandersHorn.png</file>
+        <file>img/card/nutral/firstLight.png</file>
+        <file>img/card/nutral/geraltIgni.png</file>
+        <file>img/card/nutral/immuneBoost.png</file>
+        <file>img/card/nutral/impenetrableFog.png</file>
+        <file>img/card/nutral/lacerate.png</file>
+        <file>img/card/nutral/torrentialRain.png</file>
+    </qresource>
+</RCC>

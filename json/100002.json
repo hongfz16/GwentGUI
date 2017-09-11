@@ -1,0 +1,32 @@
+{
+	"id":100002,
+	"name":"Biting Frost",
+    "img":"",
+	"fight":0,
+    "type":3,
+    "position":"anywhere",
+    "loyalty":false,
+    "timer":2,
+    "prepare":
+    {
+        "int":[["hurt",2]],
+        "vector<GameUnit*>*":["weakest"]
+    },
+    "RoutineEffect":
+	{
+        "steps":
+        {
+            "function":
+            [
+                {
+                    "name":"findWeakestInRow",
+                    "parameter":["weakest","selfRow"]
+                },
+                {
+                    "name":"damageByN",
+                    "parameter":["weakest","hurt"]
+                }
+            ]
+        }
+	}
+}

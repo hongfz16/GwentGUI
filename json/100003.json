@@ -1,0 +1,32 @@
+{
+	"id":100003,
+	"name":"Impenetrable Fog",
+	"img":"",
+	"fight":0,
+    "type":3,
+    "position":"anywhere",
+    "loyalty":false,
+    "timer":2,
+    "prepare":
+    {
+        "int":[["hurt",2]],
+        "vector<GameUnit*>*":["strongest"]
+    },
+    "RoutineEffect":
+	{
+        "steps":
+        {
+            "function":
+            [
+                {
+                    "name":"findStrongestInRow",
+                    "parameter":["strongest","selfRow"]
+                },
+                {
+                    "name":"damageByN",
+                    "parameter":["strongest","hurt"]
+                }
+            ]
+        }
+	}
+}
